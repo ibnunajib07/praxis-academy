@@ -1,7 +1,7 @@
 # praxis academy
 
 1. Addiing Team Members
-  ![Add new member](1.png)
+  ![Add new member](\pictures\1.png)
 2. Pull Requests
 
 3. Bug Tracking
