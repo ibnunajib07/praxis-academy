@@ -1,62 +1,22 @@
-#Looping Triangle
+1. Fortune Teller
 
-let n = 7;
-let string = "";
-for (let i = 1; i <= n; i++) {
-  for (let j = 0; j < i; j++) {
-    string += "#";
-  }
-  string += "\n";
+function tellFortune(jobTitle, geoLocation, partner, numKids) {
+    var future = 'You will be a ' + jobTitle + ' in ' + geoLocation + ' and married to ' +
+   partner + ' ' + ' with ' + numKids + ' kids.';
+    console.log(future);
 }
-console.log(string);
 
+tellFortune('bball player', 'spain', 'Shaq', 3);
+tellFortune('stunt double', 'Japan', 'Ryan Gosling', 3000);
+tellFortune('Elvis impersonator', 'Russia', 'The Oatmeal', 0);
 
-#Fizz Buzz
+2. The Temperature Converter
 
-let n = 100;
-	for (let i = 1; i <= n; i++){
-		if (i%3 == 0){
-        console.log("fizz");}
-      	if (i%5 == 0 && i%3 != 0){
-        console.log("buzz");}
-        else console.log(i);
-	}
-
-#Chessboard
-
-    var chessBoard = "";
-    var size = 9;
-
-    for (var lineCounter = 1; lineCounter < size; lineCounter++) { 
-
-        if (lineCounter%2 === 0) { 
-
-        for (var charCounter = 1; charCounter < size; charCounter++) {
-            var evenOdd = (charCounter%2 === 0);
-            switch (evenOdd) {
-                case true:
-                    (chessBoard += " ");
-                    break;
-                case false:
-                    (chessBoard += "#");
-                    break;
-                }
-            }                   
-        }
-    else { 
-
-        for (var charCounter = 1; charCounter < size; charCounter++) {
-            var evenOdd = (charCounter%2 === 0);
-            switch (evenOdd) {
-                case true:
-                    (chessBoard += "#");
-                    break;
-                case false:
-                    (chessBoard += " ");
-                    break;
-            }
-            }                       
-        }   
-    chessBoard += "\n";
-    }
-    console.log(chessBoard);
+function celsiusToFahrenheit(celsius) {
+  var celsiusInF = (celsius*9)/5 + 32;
+  console.log(celsius + '°C is ' + celsiusInF + '°F');
+}
+function fahrenheitToCelsius(fahrenheit) {
+  var fahrenheitInC = ((fahrenheit - 32)*5)/9;
+  console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C');
+}

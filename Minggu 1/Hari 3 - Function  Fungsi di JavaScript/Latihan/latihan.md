@@ -1,3 +1,1 @@
-#Install Visual Studio Code
-
-#Memahami JavaScript Basic dan Eloquent JavaScript
+#Memahami functions pada MDN dan mencoba masing-masing bagian dari fungsi
