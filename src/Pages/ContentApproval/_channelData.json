@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "value": "smsFlash",
+        "name": "SMS FLASH"
+    },
+    {
+        "id": 2,
+        "value": "simAds",
+        "name": "POP UP"
+    },
+    {
+        "id": 3,
+        "value": "mms",
+        "name": "MMS"
+    },
+    {
+        "id": 4,
+        "value": "sms",
+        "name": "SMS"
+    },
+    {
+        "id": 5,
+        "value": "whatsapp",
+        "name": "WHATSAPP"
+    }
+]

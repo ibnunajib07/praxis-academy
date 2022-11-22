@@ -1,0 +1,61 @@
+.logoFold {
+    display: flex;
+    height: 64px;
+    padding-top: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: flex-direction 0.2s, padding-top 0.2s;
+}
+
+.logoUnfold {
+    display: flex;
+    height: 64px;
+    padding-top: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: flex-direction 0.2s, padding-top 0.2s;
+}
+
+.navbarMenu {
+    float: right;
+    min-width: 150px;
+}
+
+span.logoTextUnfold {
+    padding-left: 16px;
+    color: white;
+}
+
+span.logoTextFold {
+    color: white;
+}
+
+main.site-layout-container {
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.site-layout {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+footer.footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 5%;
+    background-color: transparent;
+}
+
+li.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal), 
+.ant-menu-item-selected {
+    border-radius: 15px;
+}
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item, .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    border-radius: 15px;
+}

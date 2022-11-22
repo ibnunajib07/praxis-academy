@@ -1,0 +1,114 @@
+.corporate-registration-container {
+    padding: 15px;
+    border-radius: 15px;
+    height: auto;
+    background-color: white;
+}
+
+.registration-form-container {
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch; */
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.label-input-container {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+}
+
+.form-input-container {
+    width: 70%;
+    padding-right: 30%;
+}
+
+.button-register-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-channel-deals-container {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.channel-options-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.channel-selection-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.channel-selection {
+    width: 75%;
+    padding-right: 10px;
+}
+
+.channel-button-add-and-remove {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.channel-option-label {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+}
+
+.channel-option-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+@media (max-width: 1024px) {
+    .form-input-container {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .parent-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .label-input-container {
+        display: flex;
+        width: auto;
+        justify-content: start;
+        margin-bottom: 5px;
+    }
+
+    .form-input-container {
+        width: auto;
+        padding-right: 0;
+    }
+
+    #form-select-channel.form-input-container {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        padding-right: 0;
+    }
+}

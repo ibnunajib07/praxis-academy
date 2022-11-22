@@ -1,0 +1,16 @@
+.content-approval-page-container {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+div.filter-container {
+    margin-bottom: 20px;
+}
+
+.modal-content-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "value": "APPROVED",
+        "name": "BLASTING"
+    },
+    {
+        "id": 2,
+        "value": "DONE",
+        "name": "DONE"
+    },
+    {
+        "id": 3,
+        "value": "PAID",
+        "name": "PAID"
+    },
+    {
+        "id": 4,
+        "value": "UNPAID",
+        "name": "UNPAID"
+    },
+    {
+        "id": 5,
+        "value": "REJECTED",
+        "name": "REJECTED"
+    }
+]
